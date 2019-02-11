@@ -1,0 +1,27 @@
+class Triangle{
+  public static void main(String [] args)
+  {
+    int a, b, c;
+    
+    java.util.Scanner kb = new java.util.Scanner(System.in);
+		System.out.println("enter the first edge");
+		a = Integer.parseInt(kb.nextLine());
+    
+    System.out.println("enter the second edge");
+		b = Integer.parseInt(kb.nextLine());
+    
+    System.out.println("enter the third edge");
+		c = Integer.parseInt(kb.nextLine());
+    
+    if (a + b > c)
+      if (b + c > a)
+        if (a + c > b)
+           System.out.println("The triangle");
+        else
+           System.out.println("is not a triangle"); 
+      else
+           System.out.println("is not a triangle"); 
+    else
+           System.out.println("is not a triangle");        
+  }
+}
