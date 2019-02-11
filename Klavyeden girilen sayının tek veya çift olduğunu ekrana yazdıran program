@@ -1,0 +1,15 @@
+class Number{
+  public static void main(String [] args)
+  {
+      int n;
+      
+      java.util.Scanner kb = new java.util.Scanner(System.in);
+      System.out.print("Enter Number");
+      n = Integer.parseInt(kb.nextLine());
+      
+      if (n % 2 == 0)
+        System.out.print("Even");
+       else
+        System.out.print("Odd");
+  }
+}
