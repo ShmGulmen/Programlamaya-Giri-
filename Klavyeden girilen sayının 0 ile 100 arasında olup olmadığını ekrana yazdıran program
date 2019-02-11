@@ -1,0 +1,17 @@
+class Number{
+  public static void main(String [] args)
+  {
+    int n;
+    
+    java.util.Scanner kb = new java.util.Scanner(System.in);
+		System.out.println("Enter Number");
+		n = Integer.parseInt(kb.nextLine());
+    
+    if (n > 0){
+      if (n < 100)
+        System.out.println("The number is between 0 and 100");
+      }
+    else
+        System.out.println("Number is not between 0 and 100");
+  }
+}
