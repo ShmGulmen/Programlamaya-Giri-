@@ -1,0 +1,16 @@
+class Digits{
+  public static void main(String [] args)
+  {
+      int a, b, c, n;
+      java.util.Scanner kb = new java.util.Scanner(System.in);
+      System.out.print("Enter a two-digit number");
+      n = Integer.parseInt(kb.nextLine());
+      
+      a = n / 10;
+      b = n % 10;
+      
+      c = a * a + b * b;
+      
+      System.out.println("Result: " + c);
+  }
+}
