@@ -1,0 +1,27 @@
+class Number{
+  public static void main(String [] args)
+  {
+      int a, b, c;
+      int max;
+
+      java.util.Scanner kb = new java.util.Scanner(System.in);
+		  System.out.println("enter the first number");
+		  a = Integer.parseInt(kb.nextLine());
+      
+      System.out.println("enter the first number");
+		  b = Integer.parseInt(kb.nextLine());
+      
+      System.out.println("enter the first number");
+		  c = Integer.parseInt(kb.nextLine());
+      
+      max = a;
+      
+      if (b > max)
+        max = b;
+      if (c > max)
+        max = c;
+        
+        System.out.println("Max: " + max);
+      
+  }
+}
