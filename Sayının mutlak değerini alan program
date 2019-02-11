@@ -4,8 +4,8 @@ class Number{
      int n;
       
     java.util.Scanner kb = new java.util.Scanner(System.in);
-		System.out.print("Enter Number");
-		int n = Integer.parseInt(kb.nextLine());
+    System.out.print("Enter Number");
+    n = Integer.parseInt(kb.nextLine());
     
     if (n < 0)
       n = n * -1;
