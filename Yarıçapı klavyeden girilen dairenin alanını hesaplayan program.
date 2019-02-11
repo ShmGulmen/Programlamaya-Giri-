@@ -1,0 +1,15 @@
+class AreaCircle{
+  public static void main(String [] args)
+  {
+      double area,pi,r;
+      pi = 3.14159;
+      
+      java.util.Scanner kb = new java.util.Scanner(System.in);
+      System.out.print("Enter radius");
+      r = Double.parseDouble(kb.nextLine());
+      
+      area = pi * r * r;
+      
+      System.out.println("Area Circle: " + area);
+  }  
+}  
