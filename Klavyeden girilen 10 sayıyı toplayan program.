@@ -1,0 +1,16 @@
+class SumNumber{
+  public static void main(String [] args)
+  {
+    int i, n , sum;
+    sum = 0;
+    
+    java.util.Scanner kb = new java.util.Scanner(System.in);
+    
+    for (i = 1; i <= 10; ++i){
+        System.out.println("Enter a number");
+        n = Integer.parseInt(kb.nextLine());
+        sum = sum + n;
+     }
+     System.out.println("Sum: " + sum);
+  }
+}
