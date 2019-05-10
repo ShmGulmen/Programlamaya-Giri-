@@ -1,0 +1,18 @@
+******
+*****
+****
+***
+**
+*
+Şeklini ekrana basan program
+
+class Pattern{
+  public static void star()
+  {
+    for (int i = 6; i > 0; --i){
+            for (int k = 0; k < i; ++k)
+                System.out.print("*");
+            System.out.println();
+        }
+  }
+}
